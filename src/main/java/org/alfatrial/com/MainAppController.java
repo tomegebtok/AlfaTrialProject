@@ -11,7 +11,7 @@ import java.net.URISyntaxException;
 @RequestMapping(path = "/gif", produces = "image/gif")
 public class MainAppController {
 
-    public final GIFDownloadByRate gifDownloadByRate;
+    private GIFDownloadByRate gifDownloadByRate;
 
     public MainAppController(GIFDownloadByRate gifDownloadByRate) {
         this.gifDownloadByRate = gifDownloadByRate;
