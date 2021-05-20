@@ -1,0 +1,10 @@
+currency:
+  url: https://openexchangerates.org/api
+  api_id: 4cee0feb1c9e4bff99d1033e804ec78e
+  code: RUB
+  code_to_compare: USD
+gif:
+  URL: https://api.giphy.com/v1/gifs
+  api_key: s7CDyK0obzJIKtqPIaXJ1QrUKMvnmL6d
+server:
+  port: 8084
